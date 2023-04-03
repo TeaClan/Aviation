@@ -1,0 +1,104 @@
+.headerContainer {
+  background: url("../../assets/imgs/airplane.png") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  height: 10%;
+  position: relative;
+  background: none;
+}
+
+.navContainer {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 70px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navLink ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.navLink ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+.navLink ul a {
+  color: #ffffff;
+  font-family: "Inter-VariableFont_slnt";
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.navLink ul a.active::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #574c4c;
+}
+
+.content {
+  display: flex;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.textGroup {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.buttonGroup {
+}
+
+.firstFlight {
+  background-color: #ffffff;
+  color: #3e4a5d;
+  border: none;
+  width: 180px;
+  height: 60px;
+  margin: 10px;
+  font-family: "Inter-VariableFont_slnt";
+  font-size: 17.5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bookNow {
+  background-color: #3e4a5d;
+  color: #ffffff;
+  border: none;
+  width: 180px;
+  height: 60px;
+  margin: 10px;
+  font-family: "Inter-VariableFont_slnt";
+  font-size: 17.5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: roboto-bold;
+  font-size: 68px;
+  color: #ffffff;
+}
+
+h4 {
+  padding: 20px;
+  font-family: handlee-regular;
+  font-size: 22px;
+  color: #ffffff;
+}
